@@ -1,0 +1,24 @@
+<div>
+    <h1 class="text-center">Nice to meet you...</h1>
+    <div class="row">
+        <div class="col-sm-4">
+            picture here
+        </div>
+        <div class="col-sm-8">
+            <strong>My name is Hannah. I am an Interaction and User Experience Designer in San Fransisco</strong>
+            <p>My desire to learn coupled with my curiosity makes me see everything as a potential experience and never an inconvenience <strong>An adventurer at heart I love to explore new and creative ways to connect with people.</strong> Through my travels abroad I have perfected my visual communication skill in addition to learning a few different languages at varying levels. You can often ind me doodling in my sketchbook, practicing yoga or horseback riding.</p>
+            <button class="btn btn-default">Resume</button>
+            <button class="btn btn-default">Contact Me</button>
+
+        </div>
+    </div>
+    <div class="row" style="margin-top: 50px;">
+        <div class="col-sm-4" ng-repeat="project in projects">
+            <div style="height:100px;" class="text-center">
+                {{project.name}}<br>
+                {{project.desc}}
+            </div>
+
+        </div>
+    </div>
+</div>
